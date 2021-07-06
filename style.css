@@ -11,7 +11,7 @@ body {
 
 p {
     padding-bottom: 20px;
-    color: #828282;
+    color: #ad8b8b;
     font-size: 20px;
     line-height: 1.8;
     text-align: justify;
@@ -26,27 +26,29 @@ h6 {
     margin: 0;
     padding: 0;
 }
-
 .half-width {
     width: 50%;
-    /* float: ; */
 }
-
-.half-width img, .one-third img{
-    width: 100%;
-}
-
 .one-third {
     width: 33%;
-    float: left;
 }
+.section-image {
+    width: 85%;
+    transition: width 1s, height 1s, transform 1s;
+}
+.section-image:hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+}
+
 
 
 /*******************
 Hero Area CSS
 ********************/
 .hero-area-wrapper {
-    /* background-color: red; */
+    padding-top: 6%;
+    padding-bottom: 8%;
 }
 
 .hero-tilte {
@@ -54,22 +56,23 @@ Hero Area CSS
     color: #575757;
 }
 
-.hero-cta {
-    padding: 100px 0;
-}
-
 .hero-tilte span {
     color: #FB954B;
 }
 
 .cta-button {
-    background-color: #fc984c;
+    background-color: goldenrod;
     color: white;
     padding: 15px 40px;
     text-decoration: none;
     font-size: 18px;
     border-radius: 50px;
-    /* border: 23px solid red; */
+    color: white;
+}
+.cta-button:hover {
+    box-shadow: 5px 5px 10px goldenrod;
+    background-color: #7ea2b8;
+    transition: 300ms;
 }
 
 
@@ -90,7 +93,7 @@ About me area CSS
     padding: 50px 0;
 }
 .about-image img {
-    width: 60%;
+    width: 100%;
 }
 
 .about-me h2 {
@@ -113,15 +116,26 @@ My recepies section
     text-align: center;
 }
 .single-recepie {
+    background-color: #edf1e3;
     margin: 10px;
     padding: 15px;
-    border-radius: 20px;
+    border-left: 15px solid;
+    border-image: linear-gradient(#FCEB21, #20c988) 30;
+    transition: width 1s, height 1s, transform 1s;
+    box-shadow: 20px 20px 20px grey;
+}
+.single-recepie:hover {
+    cursor: pointer;
     box-shadow: 10px 10px 20px #8b807e;
+    transition: 0.3s;
 }
 
 .single-recepie p {
     text-align: left;
     font-size: 16px;
+}
+.recepie-image {
+    width: 100%;
 }
 
 /***********
