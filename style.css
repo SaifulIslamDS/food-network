@@ -26,16 +26,20 @@ h6 {
     margin: 0;
     padding: 0;
 }
+
 .half-width {
     width: 50%;
 }
+
 .one-third {
     width: 33%;
 }
+
 .section-image {
     width: 85%;
     transition: width 1s, height 1s, transform 1s;
 }
+
 .section-image:hover {
     cursor: pointer;
     transform: scale(1.2, 1.2);
@@ -69,6 +73,7 @@ Hero Area CSS
     border-radius: 50px;
     color: white;
 }
+
 .cta-button:hover {
     box-shadow: 5px 5px 10px goldenrod;
     background-color: #7ea2b8;
@@ -81,17 +86,20 @@ About me area CSS
 ********************/
 
 .about-area-wrapper {
-    background-image: url(images/about-me-area-bg.png);
+    background-image: url(images/about-me-area-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 .about-me {
     padding: 150px 0px 100px 50px;
 }
+
 .about-image {
     padding: 50px 0;
 }
+
 .about-image img {
     width: 100%;
 }
@@ -109,21 +117,27 @@ My recepies section
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .my-recipies-wrapper h2 {
-    color: #575757;font-size: 45px;text-align: center;
-}
-.my-recipies-wrapper > p {
+    color: #575757;
+    font-size: 45px;
     text-align: center;
 }
+
+.my-recipies-wrapper>p {
+    text-align: center;
+}
+
 .single-recepie {
     background-color: #edf1e3;
-    margin: 10px;
-    padding: 15px;
+    margin: 10px 15px;
+    padding: 15px 20px;
     border-left: 15px solid;
     border-image: linear-gradient(#FCEB21, #20c988) 30;
     transition: width 1s, height 1s, transform 1s;
     box-shadow: 20px 20px 20px grey;
 }
+
 .single-recepie:hover {
     cursor: pointer;
     box-shadow: 10px 10px 20px #8b807e;
@@ -131,11 +145,17 @@ My recepies section
 }
 
 .single-recepie p {
-    text-align: left;
+    text-align: justify;
     font-size: 16px;
 }
+
 .recepie-image {
     width: 100%;
+}
+.single-recepie-title {
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 0;
 }
 
 /***********
@@ -145,27 +165,77 @@ Counter CSS
 .counter-wrapper {
     padding: 50px 0;
 }
+
 .counter {
     border-radius: 20px;
     box-shadow: 10px 10px 34px palevioletred;
 }
+
 .single-counter {
     width: 33%;
     text-align: center;
     padding: 50px 0;
 }
+
 .single-counter h3 {
     font-size: 40px;
     color: #FC984C;
 }
+
 .single-counter p {
     text-align: center;
 }
 
 /****************
+Service Section CSS
+****************/
+
+.services-wrapper {
+    background-image: url(images/services-area-bg.jpg);
+    background-repeat: none;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.services-wrapper h2 {
+    font-size: 45px;
+    color: #575757;
+}
+
+.services-subtitle {
+    text-align: center;
+}.single-service-title {
+    font-size: 24px;
+}
+
+.service-image {
+    width: 40%;
+    margin-top: 20px;
+}
+
+.single-service-text {
+    font-size: 16px;
+    text-align: center;
+}
+
+.single-service {
+    cursor: pointer;
+    margin: 15px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 35px grey;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.single-service:hover {
+    box-shadow: 10px 10px 55px red;
+}
+
+/****************
 Footer CSS
 ***************/
-
 
 footer {
     background-color: #0B0E17;
