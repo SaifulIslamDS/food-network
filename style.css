@@ -134,14 +134,14 @@ My recepies section
     padding: 15px 20px;
     border-left: 15px solid;
     border-image: linear-gradient(#FCEB21, #20c988) 30;
-    transition: width 1s, height 1s, transform 1s;
+    transition: width 1s, height 1s, box-shadow .5s ease-in-out;
     box-shadow: 20px 20px 20px grey;
 }
 
 .single-recepie:hover {
     cursor: pointer;
     box-shadow: 10px 10px 20px #8b807e;
-    transition: 0.3s;
+    /* transform: 0.3s; */
 }
 
 .single-recepie p {
@@ -226,7 +226,7 @@ Service Section CSS
     padding: 30px 20px;
     border-radius: 20px;
     box-shadow: 10px 10px 35px grey;
-    transition: width 1s, height 1s, transform 1s;
+    transition: width 1s, height 1s, box-shadow .5s;
 }
 
 .single-service:hover {
