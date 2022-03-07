@@ -226,7 +226,7 @@ Service Section CSS
     padding: 30px 20px;
     border-radius: 20px;
     box-shadow: 10px 10px 35px grey;
-    transition: width 1s, height 1s, box-shadow .5s;
+    transition: width 1s, height 1s, box-shadow .5s ease-in-out;
 }
 
 .single-service:hover {
